@@ -1,0 +1,116 @@
+/* NavBar.css */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3958; 
+    padding: 0px;
+    width: 100%;
+  }
+
+  /* Style logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+  
+  .logoDiv {
+    display: flex; 
+    align-items: center; 
+    color: aquamarine;
+   }
+  
+  .logo {
+    font-size: 25px; 
+    color: #0070f3; 
+  }
+
+  /*ABOUT*/
+  
+  .menu {
+    display: flex;
+    gap: 82x; 
+    align-items: center;
+  }
+  .menuList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .menuList li {
+    display: inline;
+    font-size: 1.2rem;
+ }
+  
+  .menuList a{
+    text-decoration: none;
+    color: #0070f3;
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+  
+  
+/* Add an underline on hover for the links */
+.menuList a:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #0d0d0e;
+  margin-top: 5px;
+}
+
+/* Adjust the underline position when not hovered */
+.menuList a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #080808;
+  transition: width 0.3s;
+  margin-top: 5px;
+}
+
+.menuList a:hover::after {
+  width: 100%;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .menuList li:hover a {
+    color: #ffcc00; /* Change the color as desired */
+  }
+  
+
+/*logo*/
+  .Logo-image{
+  width: 70px; 
+  height: auto; 
+  margin-right: 30px; 
+  }
+
+
+/*About us css*/
+  .about{
+    background-color: #E9F1FA;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .us{
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 10px 0;
+  }
+
+  .p{
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 10px 0;
+  }
+  
+
+  

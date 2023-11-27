@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,100;1,100&display=swap');
+
+:root{
+  font-family: 'poppins', sans-serif;
+}
+
+body{
+  background: #c1c8e4;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #2a68ff;
+  right: 0;
+  color: #2a68ff;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.card{
+  background: #000;
+}
